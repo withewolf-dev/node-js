@@ -1,0 +1,15 @@
+npm install -g nodemon
+
+There is two way we can now use the
+nodemon. Easiest one is - just simply
+write nodemon in the console and it
+will start the server. pg-188
+
+The second way to use script on the
+`package.json` file. We are making a
+start script using nodemon
+
+
+"scripts": {
+    "start": "nodemon app.js"
+  },
